@@ -1,0 +1,145 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: url(444.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	font-family: sans-serif;
+}
+
+.menu-bar
+{
+	background: rgb(60,60,60);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 9px;
+	padding: 9px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu-bar ul li:hover
+{
+	background-color: grey;
+	border-radius: 2px;
+}
+
+h1 {
+	font-family: papyrus;
+	letter-spacing: 5px;
+}
+
+h3 {
+	font-family: Garamond;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-family: Garamond;
+	letter-spacing: 1px;
+}
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+	margin-top: 10%;
+	display: block;
+	width: 60%;
+	height: auto;
+	margin-left:70%;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #2F4F4F;
+	overflow: hidden;
+	width: 60%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-translation: .3s ease;
+	transition: .3s ease;
+	margin-left:70%
+}
+
+.container:hover .overlay {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.text {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate (-50%, -50%);
+	text-align: center;
+	font-family: Garamond;
+	letter-spacing: 1px;
+}
+
+#mySidenav a {
+	position: absolute;
+	right: -80px;
+	transition: 0.3s;
+	padding: 19px;
+	width: 100px;
+	text-decoration: none;
+	font size: 20px;
+	color: white;
+	border-radius: 5px 0 0 5px;
+	margin-top: 240px;
+}
+
+#mySidenav a:hover {
+	right: 0;
+}
+
+#SKTBR {
+	top: 20px;
+	background-color: #696969;
+}
+
+#SMKBR {
+	top: 80px;
+	background-color: #DB7093;
+}
+
+#UITMKEDAH {
+	top: 140px;
+	background-color: #f44336;
+}
+

@@ -1,0 +1,56 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: url(444.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	font-family: sans-serif;
+}
+
+.menu-bar
+{
+	background: rgb(60,60,60);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 9px;
+	padding: 9px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.menu-bar ul li:hover
+{
+	background-color: grey;
+	border-radius: 2px;
+}
+
+h1 {
+	font-family: papyrus;
+	letter-spacing: 5px;
+}
+
+h3 {
+	font-family: Garamond;
+	letter-spacing: 1px;
+}
